@@ -128,10 +128,10 @@ const Hero2 = () => {
             </div>
 
             <div className="flex gap-10 mt-10 mb-[100px]">
-              <button className="bg-[#FFC265] py-8 px-[62px] rounded-[10px] font-bold text-[20px]">
+              <button className="bg-[#FFC265] py-6 px-[62px] rounded-[10px] font-bold text-[20px]">
                 Learn More
               </button>
-              <button className="py-8 px-[62px] rounded-[10px] text-[20px] font-bold text-[#FFC265] border border-[#FFC265]">
+              <button className="py-6 px-[62px] rounded-[10px] text-[20px] font-bold text-[#FFC265] border border-[#FFC265]">
                 Contact Us
               </button>
             </div>

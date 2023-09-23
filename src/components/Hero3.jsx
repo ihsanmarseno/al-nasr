@@ -1,6 +1,13 @@
 import Card1 from "../assets/img/card1.png";
 import Card2 from "../assets/img/card2.png";
 import Card3 from "../assets/img/card3.png";
+import Garuda from "../assets/img/garuda.png"
+import Qatar from "../assets/img/qatar.png"
+import Fly from "../assets/img/fly.png"
+import Saudia from "../assets/img/saudia.png"
+import Lion from "../assets/img/lionair.png"
+
+
 
 const Hero3 = () => {
   const CardFill = [
@@ -48,7 +55,8 @@ const Hero3 = () => {
 
   return (
     <div>
-      <div className="h-full mx-[100px] mt-[78px]">
+      <div className="h-full ml-[100px] mt-[78px]">
+        <div className="mr-[100px]">
         <div className="flex flex-col items-center justify-center">
           <div className="text-[54px] font-bold font-kufam text-[#4A4A4A] w-[700px] h-[152px] text-center">
             Al Nasr Special Umrah and Hajj Packages
@@ -526,6 +534,45 @@ const Hero3 = () => {
           <div className="w-[361px] h-[549px] bg-white rounded-[10px] shadow-xl flex justify-center items-center font-semibold text-[#1DA599] text-[20px] font-kufam">
             <p>Soon Program</p>
           </div>
+        </div>
+        </div>
+
+        <div className="flex grid-cols-2 mt-[100px]">
+          <div className="w-[300px]">
+            <p className="font-kufam font-extrabold text-[32px] text-[#4A4A4A]">
+              Airways Accomadation
+            </p>
+            <p className="font-medium font-nunito text-[24px] text-[#4A4A4A] pt-[10px] pb-5">
+              We cooperate with several airlines for Umrah and Hajj
+            </p>
+            <button className="flex gap-[6px] py-[10px] px-[20px] bg-[#C1FFFA] rounded-[20px]">
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2.5L15.09 8.76L22 9.77L17 14.64L18.18 21.52L12 18.27L5.82 21.52L7 14.64L2 9.77L8.91 8.76L12 2.5Z"
+                  fill="#FFC265"
+                  stroke="#FFC265"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+                <p className="font-nunito text-[20px] font-semibold text-[#1DA599]">5.0</p>
+                <p className="font-nunito text-[20px] font-semibold text-[#1DA599]">Rating</p>
+            </button>
+          </div>
+            <div className="flex justify-between items-center pl-[80px] gap-[50px] overflow-x-auto">
+              <img src={Garuda} alt="" />
+              <img src={Qatar} alt="" />
+              <img src={Fly} alt="" />
+              <img src={Saudia} alt="" />
+              <img src={Lion} alt="" />
+            </div>
         </div>
       </div>
     </div>
