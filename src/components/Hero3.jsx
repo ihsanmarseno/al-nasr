@@ -337,7 +337,7 @@ const Hero3 = () => {
             <div className="ml-[10px]">
               <div className="flex justify-center mx-[10px] mt-6">
                 <img
-                  src={CardFill[1].picture}
+                  src={CardFill[0].picture}
                   alt="Gambar 1"
                   className="w-[311px] h-[238px] mr-[10px]"
                 />
@@ -425,8 +425,8 @@ const Hero3 = () => {
           </div>
         </div>
 
-        <div className="mt-[46px]">
-        <div className="w-[361px] h-[549px] bg-white rounded-[10px] shadow-xl">
+        <div className="flex justify-between mt-[46px]">
+          <div className="w-[361px] h-[549px] bg-white rounded-[10px] shadow-xl">
             <div className="ml-[10px] pt-[2px]">
               <div className="flex justify-center mx-[10px] mt-6">
                 <img
@@ -516,9 +516,19 @@ const Hero3 = () => {
               </div>
             </div>
           </div>
-        </div>
+
+          <div className="w-[361px] h-[549px] bg-white rounded-[10px] shadow-xl flex justify-center items-center font-semibold text-[#1DA599] text-[20px] font-kufam">
+            <p>Soon Program</p>
+          </div>
+          <div className="w-[361px] h-[549px] bg-white rounded-[10px] shadow-xl flex justify-center items-center font-semibold text-[#1DA599] text-[20px] font-kufam">
+            <p>Soon Program</p>
+          </div>
+          <div className="w-[361px] h-[549px] bg-white rounded-[10px] shadow-xl flex justify-center items-center font-semibold text-[#1DA599] text-[20px] font-kufam">
+            <p>Soon Program</p>
+          </div>
         </div>
       </div>
+    </div>
   );
 };
 
