@@ -30,9 +30,7 @@ const Header = () => {
           />
         </svg>
         <ul className="flex gap-[44px] font-[600] text-[20px] text-[#525252]">
-          <li className="text-[#FFC265] font-semibold cursor-pointer">
-            Home
-          </li>
+          <li className="text-[#FFC265] font-semibold cursor-pointer">Home</li>
           <li className="hover:text-[#FFC265] cursor-pointer">
             <Link
               to="hero1"
@@ -41,7 +39,7 @@ const Header = () => {
               offset={640}
               duration={500}
             >
-             About Us
+              About Us
             </Link>
           </li>
           <li className="hover:text-[#FFC265]">Package</li>

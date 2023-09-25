@@ -1,6 +1,6 @@
 import Rectangle from "../assets/img/rectangle.png";
 import Person2 from "../assets/img/person2.png";
-import Person1 from "../assets/img/person1.png"
+import Person1 from "../assets/img/person1.png";
 
 const Hero = () => {
   return (
@@ -40,19 +40,23 @@ const Hero = () => {
         </div>
 
         <div>
-        <div className="absolute top-0 right-0 z-20 w-[229px] h-[80px] bg-white rounded-[10px]  shadow-sm -translate-x-12 translate-y-6">
-          <div className="flex py-1">
-            <img src={Person1} alt="Gambar 1" className="pl-[5px] pt-[2px] transition-opacity ease-in-out" />
-            <div className="pl-[14px] pt-2">
-              <p className="text-[12px] font-semibold font-nunito pr-5">
-                “Let{`'`}s worship as good Muslims”.
-              </p>
-              <p className="font-semibold font-kufam text-[12px] pt-[2px]">
-                Mohammad Qassem
-              </p>
+          <div className="absolute top-0 right-0 z-20 w-[229px] h-[80px] bg-white rounded-[10px]  shadow-sm -translate-x-12 translate-y-6">
+            <div className="flex py-1">
+              <img
+                src={Person1}
+                alt="Gambar 1"
+                className="pl-[5px] pt-[2px] transition-opacity ease-in-out"
+              />
+              <div className="pl-[14px] pt-2">
+                <p className="text-[12px] font-semibold font-nunito pr-5">
+                  “Let{`'`}s worship as good Muslims”.
+                </p>
+                <p className="font-semibold font-kufam text-[12px] pt-[2px]">
+                  Mohammad Qassem
+                </p>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
