@@ -8,23 +8,23 @@ import Saudia from "../assets/img/saudia.png";
 import Lion from "../assets/img/lionair.png";
 
 const Hero3 = () => {
-  const CardFill = [
-    {
-      id: 1,
-      predicateYellow: "Bronze",
-      predicateGreen: "Best Seller",
-      title: "Al Nasr Special Umrah 9 Days",
-      price: "1,950",
-      picture: Card1,
-    },
-    {
-      id: 2,
-      predicateYellow: "Silver",
-      predicateGreen: "Special Seller",
-      title: "Al Nasr Special Umrah 17 Days",
-      price: "2,750",
-      picture: Card2,
-    },
+    const CardFill = [
+      {
+        id: 1,
+        predicateYellow: "Bronze",
+        predicateGreen: "Best Seller",
+        title: "Al Nasr Special Umrah 9 Days",
+        price: "1,950",
+        picture: Card1,
+      },
+      {
+        id: 2,
+        predicateYellow: "Silver",
+        predicateGreen: "Special Seller",
+        title: "Al Nasr Special Umrah 17 Days",
+        price: "2,750",
+        picture: Card2,
+      },
     {
       id: 3,
       predicateYellow: "Gold",
