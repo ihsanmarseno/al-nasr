@@ -59,7 +59,7 @@ const Hero4 = () => {
     }
   ];
   return (
-    <div className="bg-[#F3FFFE]">
+    <div className="bg-[#F3FFFE]" id="hero4">
       <div className="h-full mx-[100px]">
         <div className="pt-[90px] flex justify-center">
           <div className="text-center">
@@ -79,7 +79,7 @@ const Hero4 = () => {
             <div
               key={card.id}
               className={`w-[282px] h-[112px] rounded-[10px] bg-white shadow-lg ${
-                index >= 4 ? "block mt-[50px]" : "flex"
+                index >= 4 ? "block mt-[50px] mb-[90px]" : "flex"
               }`}
             >
               <div className="flex p-5">

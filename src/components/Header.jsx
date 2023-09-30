@@ -42,9 +42,39 @@ const Header = () => {
               About Us
             </Link>
           </li>
-          <li className="hover:text-[#FFC265]">Package</li>
-          <li className="hover:text-[#FFC265]">Facilities</li>
-          <li className="hover:text-[#FFC265]">Gallery</li>
+          <li className="hover:text-[#FFC265] cursor-pointer">
+            <Link
+              to="hero2"
+              smooth={true}
+              spy={true}
+              offset={640}
+              duration={500}
+            >
+              Package
+            </Link>
+          </li>
+          <li className="hover:text-[#FFC265] cursor-auto">
+          <Link
+              to="hero3"
+              smooth={true}
+              spy={true}
+              offset={640}
+              duration={500}
+            >
+              Facilities
+            </Link>
+          </li>
+          <li className="hover:text-[#FFC265]">
+          <Link
+              to="hero4"
+              smooth={true}
+              spy={true}
+              offset={640}
+              duration={500}
+            >
+              Gallery
+            </Link>
+          </li>
         </ul>
         <button className="bg-[#FFC265] py-[20px] px-[48px] rounded-[10px] font-semibold text-[20px] hover:bg-[#d6983b] hover:text-white">
           Contact Us

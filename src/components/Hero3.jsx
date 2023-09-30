@@ -53,7 +53,7 @@ const Hero3 = () => {
 
   return (
     <div>
-      <div className="h-full ml-[100px] mt-[78px] mb-[100px]">
+      <div className="h-full ml-[100px] mt-[78px] mb-[100px]" id="hero3">
         <div className="mr-[100px]">
           <div className="flex flex-col items-center justify-center">
             <div className="text-[54px] font-bold font-kufam text-[#4A4A4A] w-[700px] h-[152px] text-center">
