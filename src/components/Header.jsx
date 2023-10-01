@@ -47,7 +47,7 @@ const Header = () => {
               to="hero2"
               smooth={true}
               spy={true}
-              offset={930}
+              offset={890}
               duration={500}
             >
               Package
